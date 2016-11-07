@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./app.css">
+</head>
+<body>
+	<div class="frame">
+		<div class="display">
+			<p id="display"></p>
+			<p id="result"></p>
+		</div>
+		<div class="buttons">
+			<a href="##">
+				<div class="btn gray" onclick="clean()" style="border-left: none;">
+					<p>C</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn gray" onclick="divide()">
+					<p>/</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn gray" onclick="multiply()">
+					<p>*</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn gray" onclick="back()">
+					<p>←</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(7)" style="border-left: none;">
+					<p>7</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(8)">
+					<p>8</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(9)">
+					<p>9</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn gray" onclick="minus()">
+					<p>—</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(4)" style="border-left: none;">
+					<p>4</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(5)">
+					<p>5</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(6)">
+					<p>6</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn gray" onclick="plus()">
+					<p>+</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(1)" style="border-left: none;">
+					<p>1</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(2)">
+					<p>2</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(3)">
+					<p>3</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn gray" onclick="plus_minus()">
+					<p>+/-</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="number(0)" style="border-left: none;">
+					<p>0</p>
+				</div>
+			</a>
+			<a href="##">
+				<div class="btn" onclick="dot()">
+					<p>.</p>
+				</div>
+			</a>
+			<a href="##" id="equal">
+				<div class="btn result" onclick="equal()">
+					<p>=</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	<script src="./calculate.js"></script>
+</body>
+</html>

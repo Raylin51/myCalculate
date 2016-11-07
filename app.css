@@ -1,0 +1,88 @@
+*{
+	font-family: PingFang SC;
+	color: #333;
+	font-family: iuCe;
+}
+
+@font-face {font-family: 'iuCe';
+    src: url('./iuCe.eot'); /* IE9*/
+    src: url('./iuCe.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./iuCe.woff') format('woff'), /* chrome、firefox */
+    url('./iuCe.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('./iuCe.svg#iuCe') format('svg'); /* iOS 4.1- */
+}
+a{
+	text-decoration: none;
+	border-radius: 35px;
+	width: 24.92%;
+	height: 87.5px;
+}
+
+a :active{
+	color: #333;
+}
+
+.frame{
+	width: 350px;
+	height: 607.5px;
+	border:3px solid #999;
+	margin: 100px auto 0 auto;
+	background-color: #f5f5f5;
+}
+.display{
+	width: 100%;
+	background-color: #fff;
+	height: 170px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#display{
+	width: 100%;
+	font-family: "DS-DIGIT"!important;
+	font-size: 40px;
+	text-align: right;
+	margin: 0;
+}
+#result{
+	margin: 0;
+	font-size: 24px;
+	text-align: right;
+}
+.buttons{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: center;
+}
+.btn{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #333;
+	vertical-align: middle;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-right: none;
+}
+.btn p {
+	margin: 0;
+	font-size: 36px;
+}
+#equal{
+	width: 49.84%
+}
+.result{
+	background-color: #4bae50;
+}
+.result p{
+	color: #fff;
+	font-weight: 600;
+}
+.gray{
+	background-color: #f2f4f4;
+}
